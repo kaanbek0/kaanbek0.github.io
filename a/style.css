@@ -55,6 +55,14 @@ p {
   background-color: #0D1EC6;
   color: white;
 }
+.tanim{
+  margin: 0 auto;
+  width: 800px;
+  font-size: 16px;
+}
+.tanim p{
+  margin: 10px;
+}
 
 .card-white {
   background: white;
@@ -109,5 +117,10 @@ p {
   }
   .card-white{
     margin: auto;
+  }
+  .tanim{
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
   }
 }
