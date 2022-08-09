@@ -7,7 +7,9 @@ h1, h2, h3 {
   color: #404042;
   font-family: Chivo;
 }
-
+body a{
+  color: black;
+}
 p {
   color: #404042;
   opacity: .7;
