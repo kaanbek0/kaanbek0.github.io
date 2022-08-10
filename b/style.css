@@ -1,8 +1,69 @@
 /* Write some CSS below */
 body{
+	margin: 0;
 	font-family: Overpass;
+}
+
+h1, h2, h3 {
+  color: #404042;
+  font-family: Chivo;
+}
+
+p {
+  color: #404042;
+  opacity: .7;
+ }
+ .banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+
+.button-blue {
+  margin-top: 24px;
+  background-color: #1A48E3;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  font-family: Overpass;
+}
+
+.button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+ .yazi {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.yazi p{
+	margin: 0 24px;
 }
 
 footer{
 	font-family: Chivo;
+	background: #404042;
+	margin: 0;
+	margin-top: 16px;
+	text-align: center;
+	padding: 24px 0;
 }
+
+footer p{
+	color: white;
+}
+
